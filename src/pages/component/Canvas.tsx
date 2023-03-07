@@ -1,10 +1,10 @@
 // Canvas 用來顯示圖片
-import React from "react";
+import { useRef, useEffect } from "react";
 
 export default function Canvas(props: { src: string }) {
-    const canvasRef = React.useRef<HTMLCanvasElement>(null);
+    const canvasRef = useRef<HTMLCanvasElement>(null);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const canvas = canvasRef.current;
         if (!canvas) {
             return;
