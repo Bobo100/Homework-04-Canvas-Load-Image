@@ -2,6 +2,12 @@
 import { useRef, useEffect } from "react";
 
 export default function Canvas(props: { src: string }) {
+
+    // useRef 可以讓我們在 render 之後存取 DOM element
+
+    // 簡單說就是當props.src改變時，會重新執行useEffect
+    // 當執行useEffect時，會重新執行canvasRef.current (意思是取得canvas的DOM element)
+    // 之後就是一般的canvas操作
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {
