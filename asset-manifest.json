@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Homework-04-Canvas-Load-Image/static/css/main.0a9dbc9e.css",
-    "main.js": "/Homework-04-Canvas-Load-Image/static/js/main.4dca6ebb.js",
+    "main.js": "/Homework-04-Canvas-Load-Image/static/js/main.f10b6ef0.js",
+    "static/media/dmitry-demidko-eBWzFKahEaU-unsplash.jpg": "/Homework-04-Canvas-Load-Image/static/media/dmitry-demidko-eBWzFKahEaU-unsplash.7ff4a7390bc9a23ece01.jpg",
     "index.html": "/Homework-04-Canvas-Load-Image/index.html",
     "main.0a9dbc9e.css.map": "/Homework-04-Canvas-Load-Image/static/css/main.0a9dbc9e.css.map",
-    "main.4dca6ebb.js.map": "/Homework-04-Canvas-Load-Image/static/js/main.4dca6ebb.js.map"
+    "main.f10b6ef0.js.map": "/Homework-04-Canvas-Load-Image/static/js/main.f10b6ef0.js.map"
   },
   "entrypoints": [
     "static/css/main.0a9dbc9e.css",
-    "static/js/main.4dca6ebb.js"
+    "static/js/main.f10b6ef0.js"
   ]
 }
